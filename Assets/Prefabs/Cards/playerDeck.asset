@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7fec7500e320647a453fd3260d987a, type: 3}
+  m_Name: playerDeck
+  m_EditorClassIdentifier: 
+  playerDeck:
+  - {fileID: 5241203458328237081, guid: 709e159e4d9ce4e43820833a80e92005, type: 3}
+  - {fileID: 1507118011798716252, guid: 1f59a46ff7a68fd4fb69e39bbfbf3af1, type: 3}
+  - {fileID: 2779246184415140789, guid: 4d3d81c0672f2d84e8a8bbfc2dec73a1, type: 3}

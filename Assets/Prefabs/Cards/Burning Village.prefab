@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4775155514533762815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8662240629668539336}
+  - component: {fileID: 3381334680533921142}
+  m_Layer: 0
+  m_Name: Burning Village
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8662240629668539336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4775155514533762815}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.1246514, y: 4.110277, z: -1147.7968}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3381334680533921142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4775155514533762815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085a679ce76beb243948c8fc0ce82a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenario: The village is on fire. Would you like a cup of hot chocolate and to
+    get cozy?
+  yesSuccess: The military put out the fire, although it will cost money to rebuild.
+    -5 Material -10 Morality
+  yesFail: Significant damage is done to the military who attempted to put out the
+    fire. -10 Military -10 Morality
+  no: Yes a good ruler does not relax while the village is in danger! Get the military
+    to put out the fire and save the innocent!
+  threshold: 5
+  oneUse: 0
+  building: 
+  success: 0
+  stats: 00000000fbffffff00000000f6ffffff0000000000000000f6fffffff6ffffff

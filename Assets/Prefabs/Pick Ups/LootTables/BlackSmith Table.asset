@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df3a440d6fe1fc9419174f1e14388569, type: 3}
+  m_Name: BlackSmith Table
+  m_EditorClassIdentifier: 
+  loot:
+  - {fileID: 4169754185609696078, guid: de35fcd0c5be5cf4fafb8a56f522d804, type: 3}
+  - {fileID: 487566721901480106, guid: 764d5778ec63fdf47bab8a1047dca708, type: 3}
+  - {fileID: 487566721901480106, guid: 764d5778ec63fdf47bab8a1047dca708, type: 3}
+  - {fileID: 1959437126006088924, guid: b34f470118e5eb34ea3967ba618c3eff, type: 3}
+  - {fileID: 1959437126006088924, guid: b34f470118e5eb34ea3967ba618c3eff, type: 3}
+  - {fileID: 1959437126006088924, guid: b34f470118e5eb34ea3967ba618c3eff, type: 3}

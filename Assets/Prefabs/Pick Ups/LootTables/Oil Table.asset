@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df3a440d6fe1fc9419174f1e14388569, type: 3}
+  m_Name: Oil Table
+  m_EditorClassIdentifier: 
+  loot:
+  - {fileID: 171258396260930996, guid: 0679b986ddd69254fabc09657b36d346, type: 3}
+  - {fileID: 171258396260930996, guid: 0679b986ddd69254fabc09657b36d346, type: 3}
+  - {fileID: 171258396260930996, guid: 62534b6ac8790ee479784794bafd5bcc, type: 3}
+  - {fileID: 171258396260930996, guid: 62534b6ac8790ee479784794bafd5bcc, type: 3}
+  - {fileID: 171258396260930996, guid: 62534b6ac8790ee479784794bafd5bcc, type: 3}
+  - {fileID: 171258396260930996, guid: 62534b6ac8790ee479784794bafd5bcc, type: 3}
+  - {fileID: 171258396260930996, guid: 011791838391c7c4fb458eedf2360518, type: 3}
+  - {fileID: 171258396260930996, guid: 011791838391c7c4fb458eedf2360518, type: 3}
+  - {fileID: 171258396260930996, guid: 011791838391c7c4fb458eedf2360518, type: 3}
+  - {fileID: 171258396260930996, guid: 011791838391c7c4fb458eedf2360518, type: 3}
+  - {fileID: 171258396260930996, guid: 011791838391c7c4fb458eedf2360518, type: 3}
+  - {fileID: 171258396260930996, guid: 011791838391c7c4fb458eedf2360518, type: 3}
+  - {fileID: 171258396260930996, guid: 011791838391c7c4fb458eedf2360518, type: 3}
+  - {fileID: 171258396260930996, guid: 011791838391c7c4fb458eedf2360518, type: 3}

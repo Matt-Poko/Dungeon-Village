@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9498ee1dc035da94a89bca70f7483a6d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerWallet: {instanceID: 0}
+  - deck: {instanceID: 0}
+  - welcome1: {fileID: 5241203458328237081, guid: 709e159e4d9ce4e43820833a80e92005, type: 3}
+  - welcome2: {fileID: 1507118011798716252, guid: 1f59a46ff7a68fd4fb69e39bbfbf3af1, type: 3}
+  - welcome3: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

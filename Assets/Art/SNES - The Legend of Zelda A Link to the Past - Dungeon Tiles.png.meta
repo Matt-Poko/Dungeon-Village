@@ -1,0 +1,816 @@
+fileFormatVersion: 2
+guid: 2292dbd612348184b82507d1eb273619
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2687218093438485211
+    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_0
+  - first:
+      213: -3415834475516072587
+    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_1
+  - first:
+      213: -845838084802474625
+    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_2
+  - first:
+      213: -6952442445062195619
+    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_3
+  - first:
+      213: 6926153761896916253
+    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_4
+  - first:
+      213: 4877928127306833096
+    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_5
+  - first:
+      213: -60253733577088007
+    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_6
+  - first:
+      213: -539767751546399616
+    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_7
+  - first:
+      213: -4529599568530188850
+    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_8
+  - first:
+      213: -5333160672364331300
+    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_9
+  - first:
+      213: -4108069259622504472
+    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_10
+  - first:
+      213: 7993481039086282437
+    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_11
+  - first:
+      213: -1039189326998457472
+    second: OpenLeftBlue
+  - first:
+      213: -1683930057002887648
+    second: LockedLeftBlue
+  - first:
+      213: 4194471348734845067
+    second: OpenLeftRed
+  - first:
+      213: -2013732041310349269
+    second: LockedLeftRed
+  - first:
+      213: 230679864418307291
+    second: OpenTopRed
+  - first:
+      213: -7418076454750793413
+    second: OpenTopBlue
+  - first:
+      213: 4692405879242329632
+    second: LockedTopBlue
+  - first:
+      213: 6939971389164799412
+    second: LockedTopRed
+  - first:
+      213: 1263574235555022081
+    second: LockedBottomRed
+  - first:
+      213: -5669285844091984724
+    second: LockedBottomBlue
+  - first:
+      213: -1388226331940845155
+    second: OpenBottomRed
+  - first:
+      213: -1639183352311012567
+    second: OpenBottomBlue
+  - first:
+      213: -172430519517004316
+    second: LockedRightBlue
+  - first:
+      213: -5234191585526818128
+    second: OpenRightBlue
+  - first:
+      213: -8126705794959670590
+    second: LockedRightRed
+  - first:
+      213: -6050202219670932580
+    second: OpenRightRed
+  - first:
+      213: 4944858358962541658
+    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1771
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52db89aa16515bad0800000000000000
+      internalID: -2687218093438485211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1771
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57de45374a48890d0800000000000000
+      internalID: -3415834475516072587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1771
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d0ad94ebaf244f0800000000000000
+      internalID: -845838084802474625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1745
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5638bc8e66f38f90800000000000000
+      internalID: -6952442445062195619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1754
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15e99d6624ae1060800000000000000
+      internalID: 6926153761896916253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1754
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc920499c1e1b340800000000000000
+      internalID: 4877928127306833096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1771
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f32fbd6c8fe92ff0800000000000000
+      internalID: -60253733577088007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1771
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0849ddbf61c5288f0800000000000000
+      internalID: -539767751546399616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1771
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5def6f031a321c0800000000000000
+      internalID: -4529599568530188850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1754
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdef3a1ff9eccf5b0800000000000000
+      internalID: -5333160672364331300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1754
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7af7b16c43df6c0800000000000000
+      internalID: -4108069259622504472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1754
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6ee8d57ac8eee60800000000000000
+      internalID: 7993481039086282437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenLeftBlue
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1269
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08331ed10de0491f0800000000000000
+      internalID: -1039189326998457472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LockedLeftBlue
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1269
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0265db5f88a71a8e0800000000000000
+      internalID: -1683930057002887648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenLeftRed
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1236
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80e4e9e771c53a30800000000000000
+      internalID: 4194471348734845067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LockedLeftRed
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1236
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28dfdca069cd04e0800000000000000
+      internalID: -2013732041310349269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenTopRed
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1289
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc0d7f4d1a833300800000000000000
+      internalID: 230679864418307291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenTopBlue
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1289
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31d3ed54c2bd0990800000000000000
+      internalID: -7418076454750793413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LockedTopBlue
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1272
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e81362946ce1140800000000000000
+      internalID: 4692405879242329632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LockedTopRed
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1272
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5ca8a753bbf4060800000000000000
+      internalID: 6939971389164799412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LockedBottomRed
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1250
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105c791921e198110800000000000000
+      internalID: 1263574235555022081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LockedBottomBlue
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1250
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca42fbcdf86a251b0800000000000000
+      internalID: -5669285844091984724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenBottomRed
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1233
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9982d891870cbce0800000000000000
+      internalID: -1388226331940845155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenBottomBlue
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1233
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923a4c30d637049e0800000000000000
+      internalID: -1639183352311012567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LockedRightBlue
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1270
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edb0c72b576b9df0800000000000000
+      internalID: -172430519517004316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenRightBlue
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1270
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bad5522c7a6c57b0800000000000000
+      internalID: -5234191585526818128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LockedRightRed
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1238
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c20259f224283f80800000000000000
+      internalID: -8126705794959670590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenRightRed
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1237
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93fb35f22d590ca0800000000000000
+      internalID: -6050202219670932580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_28
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1475
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54559e7a7aaf9440800000000000000
+      internalID: 4944858358962541658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

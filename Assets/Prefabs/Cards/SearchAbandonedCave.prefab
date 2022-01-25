@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3310941173198350075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5671132034573319335}
+  - component: {fileID: 6973469716294208287}
+  m_Layer: 0
+  m_Name: SearchAbandonedCave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5671132034573319335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3310941173198350075}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 760.67523, y: 188.01726, z: -602.9617}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6973469716294208287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3310941173198350075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085a679ce76beb243948c8fc0ce82a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenario: There seems to be an abandoned mineshaft nearby. There could be a substantial
+    amount of loot inside, shall we investigate?
+  yesSuccess: Oh what luck! There was a massive gold ore vein! +15 Material
+  yesFail: The cave was abandoned due to toxic gas fumes our explorers have perishied.
+    -5 Military
+  no: Perhaps we should leave the cave be, who knows why it is abandoned.
+  threshold: 5
+  oneUse: 0
+  building: 
+  success: 0
+  stats: 000000000f00000000000000000000000000000000000000fbffffff00000000

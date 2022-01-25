@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1810329985632830408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2421486183220686417}
+  - component: {fileID: 5094877497449710410}
+  m_Layer: 0
+  m_Name: Scholar Saved
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2421486183220686417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810329985632830408}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.17252338, y: -0.2727543, z: -1160.379}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5094877497449710410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810329985632830408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085a679ce76beb243948c8fc0ce82a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenario: Thank you for saving me from that wretched place. I was studying the
+    nature of the dungeon and randomness when I got ensnared by that cage. I could
+    share my research with you, if you'd be willing to loan me 10 coins to build
+    up a library.
+  yesSuccess: Stop by sometime, I'd be more than willing to share my research with
+    you... for a price
+  yesFail: 
+  no: This research will be forgotten if not properly utilized!
+  threshold: 0
+  oneUse: 1
+  building: Library
+  success: 0
+  stats: 0000000000000000000000000000000000000000000000000000000000000000

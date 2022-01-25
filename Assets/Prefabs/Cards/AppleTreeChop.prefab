@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7334881640936447529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4468180552531046657}
+  - component: {fileID: 3552978995023678404}
+  m_Layer: 0
+  m_Name: AppleTreeChop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4468180552531046657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7334881640936447529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.8515077, y: -0.656259, z: -495.7572}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3552978995023678404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7334881640936447529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085a679ce76beb243948c8fc0ce82a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenario: Chop down apple trees in the village?
+  yesSuccess: You chop down the trees and reap the rewards of +15 morsel
+  yesFail: You chop down the trees to discover bee are neighboring in the trees and
+    you lose most of your apples from running +5 morsel
+  no: Best not to mess with nature...
+  threshold: 5
+  oneUse: 0
+  building: 
+  success: 0
+  stats: 0f00000000000000000000000000000005000000000000000000000000000000

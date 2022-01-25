@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3384680239237976293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7008475646174020743}
+  - component: {fileID: 6005675861819758486}
+  m_Layer: 0
+  m_Name: PriestSaved
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7008475646174020743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3384680239237976293}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.875732, y: -0.47150052, z: -200.56383}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6005675861819758486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3384680239237976293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085a679ce76beb243948c8fc0ce82a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenario: My gods this village is riddled with evil spirits. My child, I ask that
+    you confess onto me your day to day rituals no matter how evil they seem so I
+    can start to clean up your land. Confession may make you feel worse right now.
+    But it is good for the soul.
+  yesSuccess: My child, I have decided to stick around to pray and beg for your immortal
+    soul. Stop by the church at anytime for a sermon
+  yesFail: 
+  no: My child, confession is good for the soul. If this village is as demon filled
+    as I believe I may set up a church at this location.
+  threshold: -1
+  oneUse: 1
+  building: Church
+  success: 1
+  stats: 000000000000000000000000fbffffff00000000000000000000000000000000

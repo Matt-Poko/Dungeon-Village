@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5926544229750050378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4563614024159185242}
+  - component: {fileID: 715138024487905175}
+  m_Layer: 0
+  m_Name: TaxReturn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4563614024159185242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5926544229750050378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.78945, y: 1.8843992, z: -410.70087}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &715138024487905175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5926544229750050378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085a679ce76beb243948c8fc0ce82a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenario: My lord, it is tax season, shall we allow the treasury to increase how
+    much money to give back to the people?
+  yesSuccess: It seems the staff at the treasury dipped into the kingdom's pantry.
+    Offering each household the gift of more coinage, as well as a small bundle of
+    food. Our resources may have depeleted, but our villagers are elated. -5 morsel
+    -5 material +10 morality
+  yesFail: The treasury went slightly above the usual rate as they wanted to remain
+    on the lordship's good side -5 material +5 morality
+  no: I agree lord, let's continue our annual rate. The villagers have enough to
+    be grateful for.
+  threshold: 3
+  oneUse: 0
+  building: 
+  success: 0
+  stats: fbfffffffbffffff000000000a00000000000000fbffffff0000000005000000

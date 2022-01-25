@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8853345173634336495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5927378683853560593}
+  - component: {fileID: 3866595651732702118}
+  m_Layer: 0
+  m_Name: RestDay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5927378683853560593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8853345173634336495}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.78945, y: 1.8843992, z: -410.70087}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3866595651732702118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8853345173634336495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085a679ce76beb243948c8fc0ce82a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenario: My lord, our villagers are exhausted from working laboriously all day,
+    perhaps they could have a holiday to recover from constant labor?
+  yesSuccess: Bless your soul lord, our village has stopped production on all fronts,
+    but the villagers will be over joyed. -5 morsel -5 material -5 military +15 mortality
+  yesFail: Thank you your lordship. I will inform the villagers of your decision
+    -5 morsel -5 material -5 military + 10 morality
+  no: Understandable your lordship this is a village. After all we cannot have production
+    of goods come to a grinding halt. Apologies for the request my liege
+  threshold: 4
+  oneUse: 0
+  building: 
+  success: 0
+  stats: fbfffffffbfffffffbffffff0f000000fbfffffffbfffffffbffffff0a000000
