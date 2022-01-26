@@ -23,5 +23,15 @@ public class EntryRoom : MonoBehaviour
             GameObject.Find("FreeCard2").SetActive(false);
             GameObject.Find("FreeCard3").SetActive(false);
         }
+        if(Manager.day > 2 && Manager.day < 9)
+        {
+            GameObject.Find("FreeKey").SetActive(true);
+            GameObject.Find("FreeFlask").SetActive(true);
+        }
+        else
+        {
+            GameObject.Find("FreeKey").SetActive(false);
+            GameObject.Find("FreeFlask").SetActive(false);
+        }
     }
 }

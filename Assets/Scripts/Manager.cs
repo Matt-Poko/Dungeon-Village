@@ -32,7 +32,7 @@ public class Manager : MonoBehaviour
     public static int material;
     public static int military;
     public static int morality;
-    //Farm
+    //Buildings
     public Farm farm;
     public GameObject f;
     //Mine
@@ -44,14 +44,44 @@ public class Manager : MonoBehaviour
     //RecruitmentCenter
     public RecruitmentCenter recruitmentCenter;
     public GameObject rc;
+    //Fortune Teller
+    public FortuneTeller fortuneTeller;
+    public GameObject ft;
+    //Black Market
+    public BlackMarket blackMarket;
+    public GameObject bm;
+    //Black Smith
+    public BlackSmith blackSmith;
+    public GameObject bs;
+    //Library
+    public Library library;
+    public GameObject l;
+    //Shrine
+    public Shrine shrine;
+    public GameObject s;
+
 
     void Awake()
     {
         ch = GameObject.Find("Church");
         rc = GameObject.Find("RC");
-        f = GameObject.Find("Farm"); //Farm Object
+        f = GameObject.Find("Farm");
         ca = GameObject.Find("Cave");
-        checker();
+        ft = GameObject.Find("FortuneTeller");
+        bm = GameObject.Find("BlackMarket");
+        bs = GameObject.Find("BlackSmith");
+        l = GameObject.Find("Library");
+        s = GameObject.Find("Shrine");
+        farm = f.GetComponent<Farm>();
+        cave = ca.GetComponent<Cave>();
+        church = ch.GetComponent<Church>();
+        recruitmentCenter = rc.GetComponent<RecruitmentCenter>();
+        fortuneTeller = ft.GetComponent<FortuneTeller>();
+        blackMarket = bm.GetComponent<BlackMarket>();
+        blackSmith = bs.GetComponent<BlackSmith>();
+        library = l.GetComponent<Library>();
+        shrine = s.GetComponent<Shrine>();
+        buildingChecker();
 
         day += 1;
         currentDay = GameObject.Find("Current Day").GetComponent<Text>();
@@ -99,6 +129,7 @@ public class Manager : MonoBehaviour
     }
     private void Update()
     {
+        coinsToSpend.text = "Available coins: " + playerWallet.amount;
         morselT.text = "Morsel: " + morsel;
         materialT.text = "Material: " + material;
         militaryT.text = "Military: " + military;
@@ -293,15 +324,40 @@ public class Manager : MonoBehaviour
                 recruitmentCenter.built.val = true;
                 recruitmentCenter.isClickable = true;
             }
+            else if (c.building == "Fortune Tent")
+            {
+                playerWallet.amount -= 10;
+                ft.SetActive(true);
+                fortuneTeller.built.val = true;
+                fortuneTeller.isClickable = true;
+            }
+            else if (c.building == "Black Market")
+            {
+                playerWallet.amount -= 10;
+                bm.SetActive(true);
+                blackMarket.built.val = true;
+                blackMarket.isClickable = true;
+            }
+            else if (c.building == "Forge")
+            {
+                playerWallet.amount -= 10;
+                bs.SetActive(true);
+                blackSmith.built.val = true;
+                blackSmith.isClickable = true;
+            }
+            else if (c.building == "Library")
+            {
+                playerWallet.amount -= 10;
+                l.SetActive(true);
+                library.built.val = true;
+                library.isClickable = true;
+            }
             deck.playerDeck.Remove(c);
         }
     }
-    public void checker()
+    public void buildingChecker()
     {
-        farm = f.GetComponent<Farm>();
-        cave = ca.GetComponent<Cave>();
-        church = ch.GetComponent<Church>();
-        recruitmentCenter = rc.GetComponent<RecruitmentCenter>();
+        
         if (farm.built.val == true)
         {
             f.SetActive(true);
@@ -342,6 +398,62 @@ public class Manager : MonoBehaviour
         {
             rc.SetActive(false);
         }
+
+        if (fortuneTeller.built.val == true)
+        {
+            ft.SetActive(true);
+            fortuneTeller.isClickable = true;
+
+        }
+        else
+        {
+            ft.SetActive(false);
+        }
+
+        if (blackSmith.built.val == true)
+        {
+            bs.SetActive(true);
+            blackSmith.isClickable = true;
+
+        }
+        else
+        {
+            bs.SetActive(false);
+        }
+
+        if (library.built.val == true)
+        {
+            l.SetActive(true);
+            library.isClickable = true;
+
+        }
+        else
+        {
+            l.SetActive(false);
+        }
+        if (day > 19)
+        {
+            s.SetActive(true);
+
+        }
+        else
+        {
+            s.SetActive(false);
+        }
+
+
+        if (blackMarket.built.val == true)
+        {
+            bm.SetActive(true);
+            blackMarket.isClickable = true;
+
+        }
+        else
+        {
+            bm.SetActive(false);
+        }
+
+        
     }
     public void endOfDays()
     {

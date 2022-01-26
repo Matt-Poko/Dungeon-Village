@@ -15,12 +15,12 @@ public class CagedNPC : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            if (saved.val)
+            /*if (saved.val)
             {
                 tempP.myWallet.amount++;
                 gameObject.SetActive(false);
-            }
-            if (tempP.keys.Contains("Key"))
+            }*/
+            if (tempP.keys.Count > 0)
             {
                     tempP.myDeck.playerDeck.Add(reward);
                     tempP.keys.RemoveAt(0);

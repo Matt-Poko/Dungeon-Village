@@ -7,7 +7,6 @@ public class Room : MonoBehaviour
     public LootTable lootAll;
     public List<GameObject> currentLootTable;
     public GameObject lootD;
-    private CagedNPC cage;
     void Awake()
     {
         BuildTable();
@@ -17,10 +16,6 @@ public class Room : MonoBehaviour
         
         int threshold = Random.Range(0, 100);
         int lootSpawn = Random.Range(0, 100);
-        if(tag == "Special")
-        {
-            lootSpawn = 1000;
-        }
         Vector3 moved = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y);
         if (lootSpawn >= threshold)
         {
@@ -30,11 +25,6 @@ public class Room : MonoBehaviour
             }
             else
             {
-                if(currentLootTable[0].tag == "Cage")
-                {
-                    cage = currentLootTable[0].GetComponent<CagedNPC>();
-                    checkFree(cage);
-                }
                 Instantiate(currentLootTable[0], moved, Quaternion.identity);
                 currentLootTable.Remove(currentLootTable[0]);
             }
@@ -50,13 +40,5 @@ public class Room : MonoBehaviour
         }
         LootChance();
         
-    }
-    public void checkFree(CagedNPC x)
-    {
-        if (x.saved.val)
-        {
-            currentLootTable.Remove(currentLootTable[0]);
-            LootChance();
-        }
     }
 }

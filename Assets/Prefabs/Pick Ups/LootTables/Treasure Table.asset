@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df3a440d6fe1fc9419174f1e14388569, type: 3}
+  m_Name: Treasure Table
+  m_EditorClassIdentifier: 
+  loot:
+  - {fileID: 487566721901480106, guid: 1c46f29cd528d134394af970aeae60dd, type: 3}
+  - {fileID: 487566721901480106, guid: 1c46f29cd528d134394af970aeae60dd, type: 3}
+  - {fileID: 487566721901480106, guid: 1c46f29cd528d134394af970aeae60dd, type: 3}
+  - {fileID: 487566721901480106, guid: 12b0f9e12f2e5644bb898eb65ce9012a, type: 3}
+  - {fileID: 487566721901480106, guid: 12b0f9e12f2e5644bb898eb65ce9012a, type: 3}
+  - {fileID: 487566721901480106, guid: 1c46f29cd528d134394af970aeae60dd, type: 3}
+  - {fileID: 487566721901480106, guid: 12b0f9e12f2e5644bb898eb65ce9012a, type: 3}
+  - {fileID: 487566721901480106, guid: 7cce8151dbf53434c982afb188c127dd, type: 3}
+  - {fileID: 487566721901480106, guid: 7cce8151dbf53434c982afb188c127dd, type: 3}
+  - {fileID: 487566721901480106, guid: 8ae5f31d11ba8b54792b5d213ed768fe, type: 3}

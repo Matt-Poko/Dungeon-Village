@@ -517,12 +517,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 183764974}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1131935997}
-  m_RootOrder: 7
+  m_Father: {fileID: 1331062956}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -884,7 +884,7 @@ RectTransform:
   m_LocalScale: {x: 1.1953125, y: 5.2267976, z: 1}
   m_Children: []
   m_Father: {fileID: 1131935997}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1180,7 +1180,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &565247627
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1193,11 +1193,11 @@ RectTransform:
   m_LocalScale: {x: 0.6115611, y: 0.72869235, z: 1}
   m_Children: []
   m_Father: {fileID: 1131935997}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 331, y: 23}
+  m_AnchoredPosition: {x: 331, y: 48}
   m_SizeDelta: {x: 301.7004, y: 211.8488}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &565247628
@@ -1209,10 +1209,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 565247626}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89aba628d022fd14b80de7fe940b9d36, type: 3}
+  m_Script: {fileID: 11500000, guid: c1101acc9289ede408ee836057120078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  built: {fileID: 11400000, guid: 44f5b0ca6cdc39b47a221b5e71026df8, type: 2}
+  built: {fileID: 11400000, guid: 7dce8f424bc07f34bb43974778e299e0, type: 2}
   isClickable: 0
 --- !u!114 &565247629
 MonoBehaviour:
@@ -1259,8 +1259,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 565247628}
-        m_TargetAssemblyTypeName: RecruitmentCenter, Assembly-CSharp
-        m_MethodName: AddMilitary
+        m_TargetAssemblyTypeName: Library, Assembly-CSharp
+        m_MethodName: transition
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1473,7 +1473,7 @@ RectTransform:
   m_LocalScale: {x: 0.6115611, y: 0.72869235, z: 1}
   m_Children: []
   m_Father: {fileID: 1131935997}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1848,12 +1848,12 @@ GameObject:
   - component: {fileID: 769251814}
   - component: {fileID: 769251813}
   m_Layer: 5
-  m_Name: Fortune Teller
+  m_Name: FortuneTeller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &769251812
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1866,7 +1866,7 @@ RectTransform:
   m_LocalScale: {x: 0.6115611, y: 0.72869235, z: 1}
   m_Children: []
   m_Father: {fileID: 1131935997}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1882,10 +1882,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 769251811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89aba628d022fd14b80de7fe940b9d36, type: 3}
+  m_Script: {fileID: 11500000, guid: c7334db9a6b03b642aff514a1a0f671b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  built: {fileID: 11400000, guid: 44f5b0ca6cdc39b47a221b5e71026df8, type: 2}
+  built: {fileID: 11400000, guid: 3b25aab300db5944bb980510fb573688, type: 2}
   isClickable: 0
 --- !u!114 &769251814
 MonoBehaviour:
@@ -1932,8 +1932,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 769251813}
-        m_TargetAssemblyTypeName: RecruitmentCenter, Assembly-CSharp
-        m_MethodName: AddMilitary
+        m_TargetAssemblyTypeName: FortuneTeller, Assembly-CSharp
+        m_MethodName: transition
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2386,8 +2386,6 @@ RectTransform:
   - {fileID: 959726008}
   - {fileID: 1331062956}
   - {fileID: 1207708483}
-  - {fileID: 1424967308}
-  - {fileID: 183764975}
   - {fileID: 1653280335}
   - {fileID: 411119020}
   - {fileID: 606790060}
@@ -2433,6 +2431,16 @@ MonoBehaviour:
   ch: {fileID: 0}
   recruitmentCenter: {fileID: 0}
   rc: {fileID: 0}
+  fortuneTeller: {fileID: 0}
+  ft: {fileID: 0}
+  blackMarket: {fileID: 0}
+  bm: {fileID: 0}
+  blackSmith: {fileID: 0}
+  bs: {fileID: 0}
+  library: {fileID: 0}
+  l: {fileID: 0}
+  shrine: {fileID: 0}
+  s: {fileID: 0}
 --- !u!1 &1166444157
 GameObject:
   m_ObjectHideFlags: 0
@@ -2447,12 +2455,12 @@ GameObject:
   - component: {fileID: 1166444160}
   - component: {fileID: 1166444159}
   m_Layer: 5
-  m_Name: Black Market
+  m_Name: BlackMarket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1166444158
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2465,7 +2473,7 @@ RectTransform:
   m_LocalScale: {x: 0.51982695, y: 0.72869235, z: 1}
   m_Children: []
   m_Father: {fileID: 1131935997}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2481,10 +2489,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1166444157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89aba628d022fd14b80de7fe940b9d36, type: 3}
+  m_Script: {fileID: 11500000, guid: b2024c063e9a65e438c3b8e03de21c1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  built: {fileID: 11400000, guid: 44f5b0ca6cdc39b47a221b5e71026df8, type: 2}
+  built: {fileID: 11400000, guid: d7ee304993c813c4a8794bf39787e36d, type: 2}
   isClickable: 0
 --- !u!114 &1166444160
 MonoBehaviour:
@@ -2531,8 +2539,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1166444159}
-        m_TargetAssemblyTypeName: RecruitmentCenter, Assembly-CSharp
-        m_MethodName: AddMilitary
+        m_TargetAssemblyTypeName: BlackMarket, Assembly-CSharp
+        m_MethodName: transition
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3139,6 +3147,8 @@ RectTransform:
   - {fileID: 1435269185}
   - {fileID: 1231623004}
   - {fileID: 242102076}
+  - {fileID: 1424967308}
+  - {fileID: 183764975}
   m_Father: {fileID: 1131935997}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3176,12 +3186,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1131935997}
-  m_RootOrder: 6
+  m_Father: {fileID: 1331062956}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -82, y: -18}
+  m_AnchoredPosition: {x: 715.5, y: 245}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1424967309
@@ -3608,13 +3618,14 @@ GameObject:
   - component: {fileID: 1653280338}
   - component: {fileID: 1653280337}
   - component: {fileID: 1653280336}
+  - component: {fileID: 1653280339}
   m_Layer: 5
   m_Name: Shrine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1653280335
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3627,7 +3638,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1131935997}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3716,6 +3727,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1653280334}
   m_CullTransparentMesh: 1
+--- !u!114 &1653280339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653280334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2489aee240583b34a870c9e9ff0e9304, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1708051498
 GameObject:
   m_ObjectHideFlags: 0
@@ -4237,12 +4260,12 @@ GameObject:
   - component: {fileID: 2088814984}
   - component: {fileID: 2088814983}
   m_Layer: 5
-  m_Name: Black Smith
+  m_Name: BlackSmith
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2088814982
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4255,7 +4278,7 @@ RectTransform:
   m_LocalScale: {x: 0.6115611, y: 0.72869235, z: 1}
   m_Children: []
   m_Father: {fileID: 1131935997}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4271,10 +4294,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2088814981}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89aba628d022fd14b80de7fe940b9d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a728b4e3e63fec43be30cd3ba8f5574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  built: {fileID: 11400000, guid: 44f5b0ca6cdc39b47a221b5e71026df8, type: 2}
+  built: {fileID: 11400000, guid: 6710cf335f1ab9c4cadc9c4861717667, type: 2}
   isClickable: 0
 --- !u!114 &2088814984
 MonoBehaviour:
@@ -4321,8 +4344,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2088814983}
-        m_TargetAssemblyTypeName: RecruitmentCenter, Assembly-CSharp
-        m_MethodName: AddMilitary
+        m_TargetAssemblyTypeName: BlackSmith, Assembly-CSharp
+        m_MethodName: transition
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

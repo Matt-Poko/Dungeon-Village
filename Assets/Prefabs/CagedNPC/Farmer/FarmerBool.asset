@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6231c9b6ae8b2944bd18b0a1fea69ac, type: 3}
   m_Name: FarmerBool
   m_EditorClassIdentifier: 
-  set: 0
+  val: 0
