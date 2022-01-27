@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: playerDeck
   m_EditorClassIdentifier: 
   playerDeck:
-  - {fileID: 6973469716294208287, guid: 7004df001fc4e554b8d069753a4b3674, type: 3}
-  - {fileID: 1178973180143723963, guid: d7600c93f91cdff4fa1173282042d6ab, type: 3}
-  - {fileID: 3485211965328792328, guid: d6c13f786c608bb45a2631cd5b32cf85, type: 3}
-  - {fileID: 4102295887885547336, guid: 21b9fd00fd9a481449b9016539557e7c, type: 3}
-  - {fileID: 1303571466917717306, guid: d108ac1a006e5ff4d961eb11d54d08e5, type: 3}
+  - {fileID: 5241203458328237081, guid: 709e159e4d9ce4e43820833a80e92005, type: 3}
+  - {fileID: 1507118011798716252, guid: 1f59a46ff7a68fd4fb69e39bbfbf3af1, type: 3}
+  - {fileID: 2779246184415140789, guid: 4d3d81c0672f2d84e8a8bbfc2dec73a1, type: 3}

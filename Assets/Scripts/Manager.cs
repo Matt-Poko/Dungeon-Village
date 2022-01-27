@@ -9,6 +9,10 @@ public class Manager : MonoBehaviour
     //Disaster and day info
     public static int day;
     public Text currentDay;
+    public static int morselD;
+    public static int materialD;
+    public static int militaryD;
+    public static int moralityD;
     //Player info
     public Deck deck;
     public Wallet playerWallet;
@@ -59,7 +63,7 @@ public class Manager : MonoBehaviour
     //Shrine
     public Shrine shrine;
     public GameObject s;
-
+    public static bool[] buildings = new bool[8];
 
     void Awake()
     {
@@ -98,16 +102,21 @@ public class Manager : MonoBehaviour
         scenario2 = GameObject.Find("Scenario2").GetComponent<Text>();
         scenario3 = GameObject.Find("Scenario3").GetComponent<Text>();
     }
-    private void Start()
+    void Start()
     {
         currentDay.text = "Day: " + day;
-        if(day % 10 == 0)
+        if(day == 1)
         {
-            DisasterStrikes(day);
-            if(day == 20)
-            {
-                endOfDays();
-            }
+            DisasterStats(0,15);
+        }
+        if(day == 10)
+        {
+            DisasterStrikes();
+            DisasterStats(5, 20);
+        }
+        if (day == 20)
+        {
+            DisasterStrikes();
         }
         coinsToSpend.text = "Available coins: " + playerWallet.amount;
         morselT.text = "Morsel: " + morsel;
@@ -253,19 +262,13 @@ public class Manager : MonoBehaviour
             Build(c);
         }
     }
-    public void DisasterStrikes(int day)
+    public void DisasterStrikes()
     {
         int numberOfNegative = 0;
-        int max = 15;
-        max -= day + 1;
-        int f = Random.Range(0, max);
-        int mat = Random.Range(0, max);
-        int mil = Random.Range(0, max);
-        int mor = Random.Range(0, max);
-        morsel -= f;
-        material -= mat;
-        military -= mil;
-        morality -= mor;
+        morsel -= morselD;
+        material -= materialD;
+        military -= militaryD;
+        morality -= moralityD;
         if (morsel < 0)
         {
             numberOfNegative += 1;
@@ -285,6 +288,13 @@ public class Manager : MonoBehaviour
         
         StartCoroutine(VillageLost(numberOfNegative));
     }
+    public void DisasterStats(int x, int y)
+    {
+        morselD = Random.Range(x, y);
+        materialD = Random.Range(x, y);
+        militaryD = Random.Range(x, y);
+        moralityD = Random.Range(x, y);
+    }
     IEnumerator VillageLost(int x)
     {
         if(x >= 3)
@@ -301,7 +311,7 @@ public class Manager : MonoBehaviour
             if (c.building == "Farm")
             {
                 f.SetActive(true);
-                farm.built.val = true;
+                buildings[0] = true;
                 farm.isClickable = true;
                 
 
@@ -309,47 +319,47 @@ public class Manager : MonoBehaviour
             else if (c.building == "Cave")
             {
                 ca.SetActive(true);
-                cave.built.val = true;
+                buildings[1] = true;
                 cave.isClickable = true;
             }
             else if (c.building == "Church")
             {
                 ch.SetActive(true);
-                church.built.val = true;
+                buildings[2] = true;
                 church.isClickable = true;
             }
             else if (c.building == "Recruiting Center")
             {
                 rc.SetActive(true);
-                recruitmentCenter.built.val = true;
+                buildings[3] = true;
                 recruitmentCenter.isClickable = true;
             }
             else if (c.building == "Fortune Tent")
             {
                 playerWallet.amount -= 10;
                 ft.SetActive(true);
-                fortuneTeller.built.val = true;
+                buildings[4] = true;
                 fortuneTeller.isClickable = true;
             }
             else if (c.building == "Black Market")
             {
                 playerWallet.amount -= 10;
                 bm.SetActive(true);
-                blackMarket.built.val = true;
+                buildings[5] = true;
                 blackMarket.isClickable = true;
             }
             else if (c.building == "Forge")
             {
                 playerWallet.amount -= 10;
                 bs.SetActive(true);
-                blackSmith.built.val = true;
+                buildings[7] = true;
                 blackSmith.isClickable = true;
             }
             else if (c.building == "Library")
             {
                 playerWallet.amount -= 10;
                 l.SetActive(true);
-                library.built.val = true;
+                buildings[8] = true;
                 library.isClickable = true;
             }
             deck.playerDeck.Remove(c);
@@ -358,7 +368,7 @@ public class Manager : MonoBehaviour
     public void buildingChecker()
     {
         
-        if (farm.built.val == true)
+        if (buildings[0] == true)
         {
             f.SetActive(true);
             farm.isClickable = true;
@@ -368,7 +378,7 @@ public class Manager : MonoBehaviour
         {
             f.SetActive(false);
         }
-        if (cave.built.val == true)
+        if (buildings[1] == true)
         {
             ca.SetActive(true);
             cave.isClickable = true;
@@ -378,7 +388,7 @@ public class Manager : MonoBehaviour
         {
             ca.SetActive(false);
         }
-        if (church.built.val == true)
+        if (buildings[2]  == true)
         {
             ch.SetActive(true);
             church.isClickable = true;
@@ -388,7 +398,7 @@ public class Manager : MonoBehaviour
         {
             ch.SetActive(false);
         }
-        if (recruitmentCenter.built.val == true)
+        if (buildings[3] == true)
         {
             rc.SetActive(true);
             recruitmentCenter.isClickable = true;
@@ -399,7 +409,7 @@ public class Manager : MonoBehaviour
             rc.SetActive(false);
         }
 
-        if (fortuneTeller.built.val == true)
+        if (buildings[4] == true)
         {
             ft.SetActive(true);
             fortuneTeller.isClickable = true;
@@ -410,7 +420,7 @@ public class Manager : MonoBehaviour
             ft.SetActive(false);
         }
 
-        if (blackSmith.built.val == true)
+        if (buildings[5] == true)
         {
             bs.SetActive(true);
             blackSmith.isClickable = true;
@@ -421,7 +431,7 @@ public class Manager : MonoBehaviour
             bs.SetActive(false);
         }
 
-        if (library.built.val == true)
+        if (buildings[6] == true)
         {
             l.SetActive(true);
             library.isClickable = true;
@@ -442,7 +452,7 @@ public class Manager : MonoBehaviour
         }
 
 
-        if (blackMarket.built.val == true)
+        if (buildings[7] == true)
         {
             bm.SetActive(true);
             blackMarket.isClickable = true;
@@ -454,9 +464,5 @@ public class Manager : MonoBehaviour
         }
 
         
-    }
-    public void endOfDays()
-    {
-
     }
 }
