@@ -352,14 +352,14 @@ public class Manager : MonoBehaviour
             {
                 playerWallet.amount -= 10;
                 bs.SetActive(true);
-                buildings[7] = true;
+                buildings[6] = true;
                 blackSmith.isClickable = true;
             }
             else if (c.building == "Library")
             {
                 playerWallet.amount -= 10;
                 l.SetActive(true);
-                buildings[8] = true;
+                buildings[7] = true;
                 library.isClickable = true;
             }
             deck.playerDeck.Remove(c);
@@ -422,6 +422,17 @@ public class Manager : MonoBehaviour
 
         if (buildings[5] == true)
         {
+            bm.SetActive(true);
+            blackMarket.isClickable = true;
+
+        }
+        else
+        {
+            bm.SetActive(false);
+        }
+
+        if (buildings[6] == true)
+        {
             bs.SetActive(true);
             blackSmith.isClickable = true;
 
@@ -431,7 +442,7 @@ public class Manager : MonoBehaviour
             bs.SetActive(false);
         }
 
-        if (buildings[6] == true)
+        if (buildings[7] == true)
         {
             l.SetActive(true);
             library.isClickable = true;
@@ -450,19 +461,6 @@ public class Manager : MonoBehaviour
         {
             s.SetActive(false);
         }
-
-
-        if (buildings[7] == true)
-        {
-            bm.SetActive(true);
-            blackMarket.isClickable = true;
-
-        }
-        else
-        {
-            bm.SetActive(false);
-        }
-
-        
+  
     }
 }
