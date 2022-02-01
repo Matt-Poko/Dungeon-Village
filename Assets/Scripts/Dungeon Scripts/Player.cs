@@ -59,26 +59,12 @@ public class Player : MonoBehaviour
         change.y = Input.GetAxisRaw("Vertical");
         MoveCharacter();
         /*if (Input.GetButtonDown("attack") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
-            StartCoroutine(AttackCo());
-        else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
+            StartCoroutine(AttackCo()); */
+        if (currentState == PlayerState.walk || currentState == PlayerState.idle)
         {
             UpdateAnimationAndMove();
         }
-    }*/
     }
-    /*private IEnumerator AttackCo()
-    {
-        animator.SetBool("attacking", true);
-        currentState = PlayerState.attack;
-        yield return null;
-        animator.SetBool("attacking", false);
-        yield return new WaitForSeconds(.3f);
-        if (currentState != PlayerState.interact)
-        {
-            currentState = PlayerState.walk;
-        }
-    }
-
     void UpdateAnimationAndMove()
     {
         if (change != Vector3.zero)
@@ -90,7 +76,7 @@ public class Player : MonoBehaviour
         }
         else
             animator.SetBool("moving", false);
-    }*/
+    }
 
     void MoveCharacter()
     {
@@ -98,3 +84,17 @@ public class Player : MonoBehaviour
         myRigidbody.MovePosition(transform.position + change * speed * Time.deltaTime);
     }
 }
+    /*private IEnumerator AttackCo()
+    {
+        animator.SetBool("attacking", true);
+        currentState = PlayerState.attack;
+        yield return null;
+        animator.SetBool("attacking", false);
+        yield return new WaitForSeconds(.3f);
+        if (currentState != PlayerState.interact)
+        {
+            currentState = PlayerState.walk;
+        }
+    }*/
+
+
